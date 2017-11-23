@@ -1,0 +1,49 @@
+{
+  "name": "redovisa-me",
+  "version": "2.0.2",
+  "description": "Me page for Viza",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha 'test/**/*.js'",
+    "start": "node index.js",
+    "eslint": "eslint",
+    "posttest": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vihd14/Ramverk2.git"
+  },
+  "author": "Viktoria Haapaoja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vihd14/Ramverk2/issues"
+  },
+  "homepage": "https://github.com/vihd14/Ramverk2#readme",
+  "devDependencies": {
+    "ajv": "^5.3.0",
+    "ajv-keywords": "^2.1.1",
+    "clean-css": "^4.1.9",
+    "clean-css-cli": "^4.1.10",
+    "codecov": "^3.0.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-plugin-pug": "^1.1.0",
+    "eslint-plugin-react": "^7.5.0",
+    "html-minifier": "^3.5.6",
+    "htmlhint": "^0.9.13",
+    "javascript-style-guide": "^0.9.10",
+    "js-yaml": "^3.10.0",
+    "jsonlint": "^1.6.2",
+    "minimatch": "^3.0.4",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "stylelint": "^8.2.0",
+    "uglify-es": "^3.1.6",
+    "uglify-js": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jstransformer-markdown-it": "^2.0.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

@@ -1,0 +1,12 @@
+# Use a base image
+FROM node:6-alpine
+
+RUN apk add --no-cache make bash
+
+# Create a workdir
+RUN mkdir -p /app
+WORKDIR /app
+
+# Install npm packages
+COPY package.json /app
+RUN npm install

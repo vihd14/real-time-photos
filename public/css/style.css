@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html {
+    background-color: #fff;
+    background-attachment: fixed;
+    margin-left: auto;
+    overflow-y: scroll;
+    padding: 1.5em;
+}
+
+body {
+    max-width: 1200px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "Lora";
+    padding: 1em;
+}
+
+/* For responsive layout */
+@media only screen and (max-width: 950px) {
+    body {
+        max-width: 100%;
+        margin-bottom: 1em;
+        overflow-x: hidden;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.site-navbar {
+    text-transform: uppercase;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    font-family: "EB Garamond";
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Lora";
+}
+
+ul li {
+    display: inline;
+}
+
+.site-navbar a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    color: black;
+    opacity: 0.6;
+}
+
+.site-navbar a:visited {
+    opacity: 0.6;
+}
+
+.site-navbar a:hover {
+    opacity: 1;
+}
+
+.site-navbar a.active {
+    opacity: 1;
+}
+
+.main {
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.main img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+img[src$="me-image"] {
+    max-width: 20em;
+    float: right;
+    margin-left: 10px;
+}
+
+img[src$="figcenter"] {
+    margin: auto;
+}
+
+code {
+    background-color: #f1f1f1;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main blockquote {
+    font-style: italic;
+    color: #444;
+    border-left: solid 0.25em #bababa;
+    padding-left: 0.8em;
+}
+
+.text-border {
+    border: solid 1px #f1f1f1
+}
+
+.main a.link {
+    color: grey;
+    text-decoration: none;
+}
+
+.main a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.site-footer {
+    border-top: solid 1px grey;
+    margin-top: 1.3em;
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}

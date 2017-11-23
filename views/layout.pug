@@ -1,0 +1,24 @@
+doctype html(lang='sv')
+html
+    head
+        meta(charset="utf-8")
+        link(rel="shortcut icon", href="/img/favicon.ico")
+        title= title
+        block style
+            link(rel="stylesheet", href="/css/style.css")
+    body
+        block header
+            div(class="site-header")
+                img(src="/img/header.png")
+        block navbar
+            div(class="site-navbar")
+                - var items = { "": 'Home', discover: 'Discover', profile: 'Profile' }
+                    ul
+                        each item, path in items
+                            li
+                                a(class= (path == urlPath.substring(1)) && 'active', href= "/" + path)= item
+        block main
+            main(class="main") Mainblock
+        block footer
+            div(class="site-footer")
+                p Copyright © 2017 - Viktoria Haapaoja

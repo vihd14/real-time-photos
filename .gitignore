@@ -1,0 +1,8 @@
+vendor/
+node_modules/
+.bin/
+build/
+cache/
+npm-debug.log
+coverage/
+.nyc_output
