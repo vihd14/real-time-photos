@@ -1,4 +1,4 @@
-# Real Time Photos
+# RealTime Photos
 ## Repo för min app.
 
 ### Hemsida
@@ -8,7 +8,7 @@
 `node.exe` inte tas bort automatiskt.
 4. Öppna hemsidan under `localhost:1550`.
 
-<!-- ### Docker
+### Docker
 **Förutsatt att du har docker och vet hur det används**
 1. Se till att `docker pull node` är gjort, så imagen node finns tillgänglig.
 2. Kör `docker-compose up -d` för att starta containers för node 6, 7 och 8.
@@ -17,4 +17,4 @@
     * 8008
     * 8007
     * 8006
-5. Kika runt på min fina sida! -->
+5. Kika runt på min fina sida!

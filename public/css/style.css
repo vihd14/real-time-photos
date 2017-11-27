@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-@import url('https://fonts.googleapis.com/css?family=Lora');
 
 html {
     background-color: #fff;
@@ -15,7 +14,7 @@ body {
     background-color: #fff;
     margin: 0 auto;
     font-size: 16px;
-    font-family: "Lora";
+    font-family: "Segoe UI";
     padding: 1em;
 }
 
@@ -30,13 +29,21 @@ body {
 
 img {
     max-width: 100%;
-    display: block;
+}
+
+.site-header {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.site-header img {
+    margin-left: 2em;
 }
 
 .site-navbar {
+    background-color: #C1272D;
     text-transform: uppercase;
-    border-top: solid 1px grey;
-    border-bottom: solid 1px grey;
     font-family: "EB Garamond";
 }
 
@@ -44,7 +51,13 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Lora";
+    font-family: "EB Garamond";
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    border-bottom: solid 1px #C1272D;
 }
 
 ul li {
@@ -56,7 +69,7 @@ ul li {
     text-decoration: none;
     margin: 10px;
     font-size: 30px;
-    color: black;
+    color: #fff;
     opacity: 0.6;
 }
 
@@ -73,12 +86,13 @@ ul li {
 }
 
 .main {
-    border-left: solid 1px grey;
-    border-right: solid 1px grey;
+    /*border: solid 1px grey;*/
+    background-color: #f1f1f1;
     margin: 0 auto;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1.5em;
+    padding-top: 0.5em;
 }
 
 .main img {
@@ -96,23 +110,8 @@ img[src$="figcenter"] {
     margin: auto;
 }
 
-code {
-    background-color: #f1f1f1;
-}
-
 .main a {
     text-decoration: none;
-}
-
-.main blockquote {
-    font-style: italic;
-    color: #444;
-    border-left: solid 0.25em #bababa;
-    padding-left: 0.8em;
-}
-
-.text-border {
-    border: solid 1px #f1f1f1
 }
 
 .main a.link {
@@ -131,8 +130,6 @@ code {
 }
 
 .site-footer {
-    border-top: solid 1px grey;
-    margin-top: 1.3em;
     text-align: center;
     padding-top: 1em;
     margin-bottom: 2em;

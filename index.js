@@ -18,21 +18,21 @@ if (app.get('env') === 'development') {
 // Add a route
 app.get("/", (req, res) => {
     res.render("home", {
-        title: "Home",
+        title: "Home - RealTime Photos",
         urlPath: req.path
     });
 });
 
 app.get("/profile", (req, res) => {
     res.render("profile", {
-        title: "Profile",
+        title: "Profile - RealTime Photos",
         urlPath: req.path
     });
 });
 
 app.get("/discover", (req, res) => {
     res.render("discover", {
-        title: "Discover",
+        title: "Discover - RealTime Photos",
         urlPath: req.path
     });
 });
