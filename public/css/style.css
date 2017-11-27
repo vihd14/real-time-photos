@@ -42,7 +42,7 @@ img {
 }
 
 .site-navbar {
-    background-color: #C1272D;
+    background-color: #c1272d;
     text-transform: uppercase;
     font-family: "EB Garamond";
 }
@@ -57,7 +57,7 @@ h4 {
 h1 {
     text-transform: uppercase;
     font-size: 28px;
-    border-bottom: solid 1px #C1272D;
+    border-bottom: solid 1px #c1272d;
 }
 
 ul li {
@@ -86,7 +86,6 @@ ul li {
 }
 
 .main {
-    /*border: solid 1px grey;*/
     background-color: #f1f1f1;
     margin: 0 auto;
     padding-left: 1.5em;
